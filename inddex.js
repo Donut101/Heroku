@@ -2,7 +2,7 @@ const express = require("express")
 const { process } = require("ipaddr.js")
 const app = express()
 
-app.get("/",function(res,req){
+app.get("/",function(req,res){
     res.send("WORKIng!!!")
 })
 
